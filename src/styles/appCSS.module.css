@@ -1,0 +1,23 @@
+.allCardsContainer {
+  margin-top: 70px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+@media only screen and (min-width: 1000px) {
+  body {
+    height: 100vh;
+    /*flex*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .allCardsContainer {
+    margin: 0;
+    max-width: 1114px;
+    max-height: 577px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

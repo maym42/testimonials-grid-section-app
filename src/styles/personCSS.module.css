@@ -1,0 +1,31 @@
+.person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+.personImg {
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+.personDetails {
+  margin-left: 15px;
+}
+.fullName {
+  font-size: 18px;
+  margin: 0;
+}
+.certification {
+  margin: 0;
+}
+#img1 {
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+#img4 {
+  border: 2px solid var(--Moderate-violet);
+}
+.certification {
+  opacity: 50%;
+}

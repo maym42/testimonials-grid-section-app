@@ -1,0 +1,60 @@
+figure {
+  margin: 0;
+}
+.card {
+  border-radius: 11px;
+  padding-top: 24px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+#card1 {
+  background-color: var(--Moderate-violet);
+  color: var(--White);
+  position: relative;
+}
+#card1 figure {
+  background-image: url("./../src-images/bg-pattern-quotation.svg");
+  width: 104px;
+  height: 102px;
+  position: absolute;
+  top: 0;
+  right: 24px;
+  z-index: 1;
+}
+#card2 {
+  background-color: var(--Very-dark-grayish-blue);
+  color: var(--White);
+}
+#card3 {
+  background-color: var(--White);
+  color: var(--Very-dark-grayish-blue);
+  box-shadow: 35px 35px 40px -35px var(--Light-gray);
+}
+#card4 {
+  background-color: var(--Very-dark-blackish-blue);
+  color: var(--White);
+}
+#card5 {
+  background-color: var(--White);
+  color: var(--Very-dark-grayish-blue);
+  box-shadow: 35px 35px 40px -35px var(--Light-gray);
+}
+/*---DESKTOP---*/
+@media only screen and (min-width: 1000px) {
+  .card {
+    margin-bottom: 0;
+  }
+  #card1 {
+    grid-column: span 2;
+  }
+  #card4 {
+    grid-column: span 2;
+  }
+  #card5 {
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
