@@ -1,4 +1,3 @@
-/*import "./../App.css";*/
 import contentCSS from "./../styles/contentCSS.module.css";
 
 /* <Content qute="" fullText="" /> */
