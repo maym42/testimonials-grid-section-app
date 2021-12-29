@@ -1,4 +1,3 @@
-/*import "./../App.css";*/
 import personCSS from "./../styles/personCSS.module.css";
 /* <Person  index="" picPath="" fullName="" certification="" /> */
 
