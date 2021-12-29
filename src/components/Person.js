@@ -20,4 +20,4 @@ function Person(props) {
 }
 
 export default Person;
-/*   <img src={logo}  alt="logo" /> */
+
