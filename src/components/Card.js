@@ -1,4 +1,4 @@
-/*import "./../App.css";*/
+
 import cardCSS from "./../styles/cardCSS.module.css";
 /*components */
 import Person from "./Person";
